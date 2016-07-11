@@ -1,0 +1,102 @@
+127.0.0.1	localhost
+192.168.33.10	ubuntu bt.menulog.local bt.mlstatic.local bt.mlapi.local m.bt.menulog.local bt.menulog-old.local bt.local nz.m.bt.menulog.local utils.menulog.local ext.menulog.local accounts.menulog.local
+192.168.33.10	ml.api.local
+192.168.33.10	bt.menulog-old.local
+192.168.33.10	nz.bt.menulog.local
+192.168.33.10	phpmyadmin.local nette.local laravel.local flourish.local oscommerce.local
+192.168.33.10	bootstrap.brad.local zencart.local tasks.brad.local tasks.bradthomas.local
+192.168.33.10	wishlistsforall.local
+192.168.33.10	spritegen.bt.menulog.local
+192.168.33.10	ml-web6-scluster ml-web7-scluster ext.menulog.local
+192.168.33.10	www.pepperonis.com.au www.twofatchefs.com.au www.trax627.com.au www.basepizza.com.au www.pateethai.com.au www.blueriverthai.com.au
+192.168.33.10	www.wokmedelivery.com.au www.wokmeonline.com.au www.galaxypizzapapakura.co.nz www.nygrillsandwich.com.au www.vanakkamindia.com.au www.restaurant1903-northbridge.com.au
+192.168.33.10	www.andersenssofdenmarkicecream.com.au www.roastbuckkitchen.com.au www.aesopsgreek.com.au
+192.168.33.10	bt.menulog.com.au
+
+# kill mintmetrics
+0.0.0.0 	d1xafqim8ep2fx.cloudfront.net
+
+# k7 ml api
+# 192.168.225.36	ml.api.local
+192.168.33.10	ml.api.local
+
+# henry db server
+192.168.225.202	henry-db.local
+
+### static dev (bt)
+#
+#
+# 192.168.33.10	db-admin.bradthomas.local
+# /menulog-db
+
+# STAGING
+# 192.168.200.194	www.noahsplace.com.au
+# 192.168.200.194	www.incredibleindia.co.nz www.bombaypalaceindian.com.au www.delishcafe.com.au www.pizzeriadeoz.com.au
+# 192.168.200.194 	www.pateethai.com.au
+# 192.168.200.194	www.pepperonis.com.au
+
+# app search (.net)
+192.168.200.188 service-iphone.menulog.com.au
+
+# k7.menulog.local
+10.15.10.29 k7.menulog.local
+
+# static staging
+# static load balancer
+# 192.168.200.194 www.menulog.com.au www.menulog.co.nz m.menulog.com.au m.menulog.co.nz accounts.menulog.com bookings.menulog.com origin.menulog.com d3ixfq93fs5x5p.cloudfront.net api.menulog.com static.menulog.com
+# 10.227.49.174 www.menulog.com.au www.menulog.co.nz m.menulog.com.au m.menulog.co.nz accounts.menulog.com bookings.menulog.com origin.menulog.com api.menulog.com static.menulog.com d3ixfq93fs5x5p.cloudfront.net
+
+# 192.168.200.73 stage-ml-web3
+# 192.168.200.74 stage-ml-web4
+
+# 192.168.200.76 ml-web6
+# 192.168.200.77 ml-web7
+
+# RENAME THESE TO EXISTING hosts
+# AWS QA
+10.227.48.252 stage-ml-web3
+10.227.49.174 stage-ml-web4
+
+# AWS PRODUCTION
+10.207.34.109 ml-web6
+10.207.35.116 ml-web7
+
+# 10.15.225.21 crm.menulog.com.au ic.menulog.com.au
+10.15.225.74 office.artog.com office1.artog.com wiki.artog.com phabricator.office.artog.com
+# 10.15.225.23 securecc.menulog.com
+
+10.207.32.22 ml-lb1
+10.207.33.72 ml-lb2
+
+# 192.168.222.186 menulog-db
+# 192.168.222.191 menulog-db7
+r 192.168.222.189 menulog-db5 menulog-db-read-only
+192.168.222.189 menulog-db-read-only
+10.207.31.148 menulog-db
+# 10.207.31.188
+
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+10.207.34.109 ml-web01
+10.207.35.116 ml-web02
+10.207.34.127 ml-web03
+10.207.34.117 ml-web04
+10.207.35.92  ml-web05
+10.207.35.206 ml-web06
+10.207.35.10  ml-web07
+10.207.34.250 ml-web08
+
+192.168.200.191 ml-oldlb2
+
+10.227.2.238 www.pepperonis.com.au 
+# 10.227.2.238 www.menulog.com.au www.pepperonis.com.au www.twofatchefs.com.au
+
+10.227.48.187 ic.menulog.com.au
+
+8.8.8.8 google
