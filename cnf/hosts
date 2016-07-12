@@ -1,17 +1,17 @@
 127.0.0.1	localhost
-192.168.33.10	ubuntu bt.menulog.local bt.mlstatic.local bt.mlapi.local m.bt.menulog.local bt.menulog-old.local bt.local nz.m.bt.menulog.local utils.menulog.local ext.menulog.local accounts.menulog.local
+192.168.33.10	ubuntu menulog.local mlstatic.local mlapi.local m.menulog.local menulog-old.local local nz.m.menulog.local utils.menulog.local ext.menulog.local accounts.menulog.local
 192.168.33.10	ml.api.local
-192.168.33.10	bt.menulog-old.local
-192.168.33.10	nz.bt.menulog.local
+192.168.33.10	menulog-old.local
+192.168.33.10	nz.menulog.local
 192.168.33.10	phpmyadmin.local nette.local laravel.local flourish.local oscommerce.local
 192.168.33.10	bootstrap.brad.local zencart.local tasks.brad.local tasks.bradthomas.local
 192.168.33.10	wishlistsforall.local
-192.168.33.10	spritegen.bt.menulog.local
+192.168.33.10	spritegen.menulog.local
 192.168.33.10	ml-web6-scluster ml-web7-scluster ext.menulog.local
 192.168.33.10	www.pepperonis.com.au www.twofatchefs.com.au www.trax627.com.au www.basepizza.com.au www.pateethai.com.au www.blueriverthai.com.au
 192.168.33.10	www.wokmedelivery.com.au www.wokmeonline.com.au www.galaxypizzapapakura.co.nz www.nygrillsandwich.com.au www.vanakkamindia.com.au www.restaurant1903-northbridge.com.au
 192.168.33.10	www.andersenssofdenmarkicecream.com.au www.roastbuckkitchen.com.au www.aesopsgreek.com.au
-192.168.33.10	bt.menulog.com.au
+192.168.33.10	menulog.com.au
 
 # kill mintmetrics
 0.0.0.0 	d1xafqim8ep2fx.cloudfront.net
