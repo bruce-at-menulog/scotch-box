@@ -23,6 +23,10 @@ if ! [ -L /var/www/menulog/menulog2 ]; then
   sudo ln -s /var/www/menulog/frontend-desktop /var/www/menulog/menulog2
 fi
 
+if ! [ -L /var/www/menulog/menulog-old ]; then
+  sudo ln -s /var/www/menulog/frontend-admin /var/www/menulog/menulog-old
+fi
+
 # remove conf for js mount
 if [ -L /etc/apache2/conf-enabled/javascript-common.conf ]; then
   sudo rm /etc/apache2/conf-enabled/javascript-common.conf
